@@ -1,0 +1,27 @@
+.library {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.library h2 {
+    margin-bottom: 20px;
+}
+
+.library-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.library-list .book-item {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    width: calc(25% - 20px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.library-list .book-item:hover {
+    background-color: #e2e2e2;
+}
